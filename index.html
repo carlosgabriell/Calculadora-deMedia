@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title> Calculadora de Média</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="titulo">
+      Calculadora de Média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+    <div class="formulario">
+          <form class="formularioFundo">
+            <div class="notas">
+              <label for="exampleInputEmail1" class="form-label">Nota 1</label>
+              <input type="number" class="form-control" id="nota1">
+            </div>
+            <div class="notas">
+              <label for="exampleInputPassword1" class="form-label">Nota 2</label>
+              <input type="number" class="form-control" id="nota2">
+            </div>
+            <div class="notas">
+              <label for="exampleInputEmail1" class="form-label">Nota 3</label>
+              <input type="number" class="form-control" id="nota3">
+            </div>
+            <div class="notas">
+              <label for="exampleInputEmail1" class="form-label">Nota 4</label>
+              <input type="number" class="form-control" id="nota4">
+            </div>
+            <h4 id="final" class="text-center"></h4>
+            <div id="alert" class="text-center"></div>
+            <button id="send" type="submit" class="enviar">Resultado</button>
+          </form>
+        </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <script src="app.js"></script>
+  </body>
+</html>

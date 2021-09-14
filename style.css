@@ -1,0 +1,57 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.titulo {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffea00;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 350px;
+}
+
+.alura-logo {
+  width: 55px;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+}
+
+.formulario {
+  position: absolute;
+  top: 170px;
+  left: 450px;
+  width: 400px;
+  height: 400px, margin-top 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formularioFundo {
+  margin-top: 3rem;
+  background-image: linear-gradient(to bottom, #ffea00, #ffaa00, #ff7b00);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.notas {
+  padding-bottom: 1rem;
+}
